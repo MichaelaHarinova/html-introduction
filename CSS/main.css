@@ -1,4 +1,4 @@
-h4, h3, p{
+h4, h3, p, h6{
   text-align:center;
 }
 h3 {
@@ -7,6 +7,8 @@ h3 {
 img {
   width: 280px;
   height :400px;
+  margin-left: 550px;
+  border-radius: 20px;
 }
 .center {
   display: block;
@@ -28,16 +30,17 @@ table {
   margin-right: auto;
 }
 
-header {
+#header {
   font-size: 50px;
   text-align: center;
   color: aliceblue;
-  background-color: #035003;
+  background-image: radial-gradient(darkgreen, white);
+  border-radius: 20px;
+  opacity: 0.8;
 }
 
 .list-style{
   list-style-type: circle;
   text-align: left;
-  margin-left: 600px;
+  margin-left: 550px;
 }
-
